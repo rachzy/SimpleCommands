@@ -1,0 +1,28 @@
+name: SimpleCommands
+version: '${project.version}'
+main: me.rachzy.simplecommands.SimpleCommands
+api-version: 1.8.8
+commands:
+  die:
+    description: Kills yourself. Literally.
+    usage: /<command>
+    aliases:
+      - suicide
+      - endmylife
+  feed:
+    description: Feed yourself.
+    usage: /<command>
+  unfeed:
+    description: Makes you hungry.
+    usage: /<command>
+  gamemode:
+    description: Changes your gamemode.
+    usage: /<command>
+    aliases:
+      - gm
+  tpa:
+    description: Sends a teleporting request for a player
+    usage: /<command>
+  tpaccept:
+    description: Accepts a tpa request
+    usage: /<command>
